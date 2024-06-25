@@ -148,7 +148,7 @@ if __name__ == "__main__":
     pygame.mixer.music.play(-1)
     
     clock = pygame.time.Clock()
-    pygame.display.set_caption("Katteknappeklikkeren")
+    pygame.display.set_caption("katteklikkeren")
     retning = 1 #starter mot høyre
     while not done:
         for event in pygame.event.get():
@@ -256,7 +256,7 @@ if __name__ == "__main__" and ferdiglevel1 == 1:
     pygame.mixer.music.play(-1)
     
     clock = pygame.time.Clock()
-    pygame.display.set_caption("Katteknappeklikkeren")
+    pygame.display.set_caption("katteklikkeren")
     retning = 1 #starter mot høyre
     while not done:
         for event in pygame.event.get():
@@ -377,7 +377,7 @@ while __name__ == "__main__" and ferdiglevel2 == 1 and donelvl3 == False:
         klikk = 0
         
         clock = pygame.time.Clock()
-        pygame.display.set_caption("Katteknappeklikkeren")
+        pygame.display.set_caption("katteklikkeren")
         while not done:
             for event in pygame.event.get():
                 if event.type == pygame.locals.QUIT:
@@ -508,7 +508,7 @@ while __name__ == "__main__" and ferdiglevel2 == 1 and donelvl3 == False:
         klikk = 0
         
         clock = pygame.time.Clock()
-        pygame.display.set_caption("Katteknappeklikkeren")
+        pygame.display.set_caption("katteklikkeren")
         while not done:
             for event in pygame.event.get():
                 if event.type == pygame.locals.QUIT:
@@ -621,7 +621,7 @@ while __name__ == "__main__" and ferdiglevel3 == 1 and donelvl4 == False:
         klikk = 0
         
         clock = pygame.time.Clock()
-        pygame.display.set_caption("Katteknappeklikkeren")
+        pygame.display.set_caption("katteklikkeren")
         while not done:
             for event in pygame.event.get():
                 if event.type == pygame.locals.QUIT:
@@ -731,7 +731,7 @@ while __name__ == "__main__" and ferdiglevel3 == 1 and donelvl4 == False:
         klikk = 0
         
         clock = pygame.time.Clock()
-        pygame.display.set_caption("Katteknappeklikkeren")
+        pygame.display.set_caption("katteklikkeren")
         while not done:
             for event in pygame.event.get():
                 if event.type == pygame.locals.QUIT:
